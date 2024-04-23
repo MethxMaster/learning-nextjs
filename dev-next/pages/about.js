@@ -2,10 +2,15 @@
 import styles from '@/styles/about.module.css'
 import Link from 'next/link';
 import Image from 'next/image';
+import Head from 'next/head';
 
 export default function About(){
     return (
         <>
+            <Head>
+                <title>About</title>
+                <meta name="keywords" content="learning,Nextjs,programming"/>
+            </Head>
             <div className={styles.container}>
                 <h1>About</h1>
                 <Image src='/about.jpg' alt='about' width={200} height={100}/>
