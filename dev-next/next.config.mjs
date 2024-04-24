@@ -8,7 +8,9 @@ const nextConfig = {
         hostname: 'cdn.dummyjson.com',
       },
     ],
+    unoptimized:true
   },
+  output:'export'
 };
 
 export default nextConfig;
